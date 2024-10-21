@@ -10,7 +10,7 @@ int main() {
     rep(i,n) {
         int x, y;
         cin >> x >> y;
-        grid[x][y] = 1;
+        grid[x][y] += 1;
     }
     vector<vector<int>> cum(1510, vector<int>(1510, 0));
     rep(i,1509) {
